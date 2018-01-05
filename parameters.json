@@ -1,0 +1,36 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "gwdnsLabelPrefix": {
+            "value": "ttnrds"
+        },
+        "gwpublicIPAddressName": {
+            "value": "gwpip"
+        },
+        "adDomainName": {
+            "value": "contoso.com"
+        },
+        "adminUsername": {
+            "value": "lokesh"
+        },
+        "adminPassword": {
+            "value": "TOTHENEW@123456"
+        },
+        "imageSKU": {
+            "value": "2016-Datacenter"
+        },
+        "numberOfRdshInstances": {
+            "value": 2
+        },
+        "rdshVmSize": {
+            "value": "Standard_A1"
+        },
+        "rdInfraVmSize": {
+            "value": "Standard_A1"
+        },
+        "adVmSize": {
+            "value": "Standard_A1"
+        }
+    }
+}
